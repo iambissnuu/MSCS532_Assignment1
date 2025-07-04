@@ -12,3 +12,9 @@ def insertion_sort_desc(arr):
 data = [5, 3, 4, 2, 8]
 print("Original:", data)
 print("Sorted (Descending):", insertion_sort_desc(data))
+
+# Get input from the user
+user_input = input("Enter numbers separated by space: ")
+user_list = list(map(int, user_input.split()))
+# Sort and display the result
+print("Sorted (Descending):", insertion_sort_desc(user_list))
