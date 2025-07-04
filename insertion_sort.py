@@ -8,6 +8,7 @@ def insertion_sort_desc(arr):
         arr[j + 1] = key
     return arr
 
+# Test the function
 data = [5, 3, 4, 2, 8]
 print("Original:", data)
 print("Sorted (Descending):", insertion_sort_desc(data))
